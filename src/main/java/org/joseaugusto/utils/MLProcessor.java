@@ -6,7 +6,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 
 public class MLProcessor {
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "teste";
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
 
     public static JSONObject processUserInput(String userInput) {
